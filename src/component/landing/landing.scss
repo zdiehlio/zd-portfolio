@@ -1,0 +1,11 @@
+@import "vars";
+
+.landing{
+  div {
+    float:left;
+    margin-left: 1em;
+    background-color: red;
+    height: 10em;
+    width: calc(90%/3);
+  }
+}

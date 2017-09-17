@@ -1,0 +1,10 @@
+@import "vars";
+
+.tech {
+  img {
+    float:left;
+    margin-left: 1em;
+    height: 15em;
+    width: calc(90%/5);
+  }
+}
