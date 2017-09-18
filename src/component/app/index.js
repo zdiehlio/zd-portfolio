@@ -7,7 +7,7 @@ import Tech from '../tech'
 import Design from '../design'
 import Content from '../content'
 
-import './app.scss'
+import './app.css'
 
 class App extends React.Component {
   render() {

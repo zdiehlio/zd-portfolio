@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import './tech.scss'
+import './tech.css'
 
 class Tech extends React.Component {
   render(){
