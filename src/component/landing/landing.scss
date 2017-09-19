@@ -1,11 +1,13 @@
 @import "./src/style/_vars.scss";
 
 .landing{
-  div {
+  a {
+    padding: 1em;
+    font-family: $font-secondary;
+    color: $color-primary;
+    font-size: 20px;
     float:left;
     margin-left: 1em;
-    background-color: red;
-    height: 10em;
     width: calc(90%/3);
   }
 }

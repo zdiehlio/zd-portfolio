@@ -2,6 +2,7 @@
 
 body {
   background-color: $color-secondary;
+  font-family: $font-primary;
 }
 .main-page {
   text-align: center;
@@ -11,11 +12,9 @@ body {
 }
 
 .nav-bar {
-  margin-bottom: 5em;
   a {
     padding: 1em;
-    float: left;
-    width: calc(100% / 3);
+    width: 100%;
     color: $color-primary;
   }
 }
@@ -23,13 +22,25 @@ body {
 .description {
   color: $color-primary;
   margin-bottom: 2em;
+  background-color: lightblue;
+  width: 100%;
 }
 .logo {
   padding: 1em;
   h1 {
     color: $color-primary;
+    font-family: $font-secondary;
   }
 }
 
 .main-content {
+}
+
+.icon {
+  width: 2em;
+  display: inline-block;
+  margin-left: 2em;
+  img {
+    border-radius: 0px;
+  }
 }
