@@ -9,6 +9,7 @@ import Content from '../content'
 import Twitter from '../../assets/twitter.jpg'
 import Instagram from '../../assets/instagram.jpg'
 import Twitch from '../../assets/twitch.ico'
+import Home from '../../assets/home.jpg'
 
 import './app.css'
 
@@ -30,7 +31,7 @@ class App extends React.Component {
             </a>
             <div className='description'><h6>Designer of awesome experiences and generally decent human being</h6></div>
             <div className='nav-bar'>
-              <Link to='/'> Home </Link>
+              <Link to='/'><img className='icon' src={Home} /> </Link>
             </div>
             <div className='main-content'>
               <Route exact path='/' component={Landing} />
