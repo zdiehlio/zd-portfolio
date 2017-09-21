@@ -30,11 +30,11 @@ class App extends React.Component {
               <img src={Instagram} />
             </a>
             <div className='description'><h6>Designer of awesome experiences and generally decent human being</h6></div>
-            <div className='nav-bar'>
+            {/*<div className='nav-bar'>
               <Link to='/'><img className='icon' src={Home} /> </Link>
-            </div>
+            </div>*/}
             <div className='main-content'>
-              <Route exact path='/' component={Landing} />
+              <Route exact path='/' component={Tech} />
               <Route exact path='/story' component={Story} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/tech' component={Tech} />
